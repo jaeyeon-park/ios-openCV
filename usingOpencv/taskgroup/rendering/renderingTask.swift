@@ -52,6 +52,7 @@ class renderingTask : hasTasks{
     
     private func smallSizeTask(param: Any) {
         _graphicRendering.renderCentColor(centColorViewer: centerColorView)
-        _graphicRendering.updateDifferentialValue(valueLabel: brightnessValueLabel)
+        _graphicRendering.updateBrightnessValue(valueLabel: brightnessValueLabel)
+        
     }
 }

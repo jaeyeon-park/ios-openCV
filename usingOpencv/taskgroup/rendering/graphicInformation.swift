@@ -81,8 +81,10 @@ struct graphicInformation{
     func updateBrightnessValue(valueLabel : UILabel?){
         let brightnessValue : NSNumber = _from.unpackColor.getBrightness()!;
         valueLabel?.text = "\(brightnessValue)";
+        /*
         valueLabel?.backgroundColor = UIColor(hue: 1.0, saturation: 0, brightness: CGFloat(brightnessValue.floatValue/1000), alpha: 1.0);
         valueLabel?.textColor = UIColor(hue: 1.0, saturation: 0, brightness: CGFloat(1 - brightnessValue.floatValue/1000), alpha: 1.0);
+        */
     }
     
     func updateDifferentialValue(valueLabel : UILabel?){
