@@ -1,5 +1,5 @@
 # ios-openCV
-Example Xcode project using opencv.
+Xcode example project using opencv.
 written in c++, objective-c, objective-c++, swift
 
 ## 유의사항
