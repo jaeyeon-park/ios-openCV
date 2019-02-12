@@ -1,10 +1,9 @@
 # ios-openCV
-Xcode example project using opencv.
+example project using opencv.
 written in c++, objective-c, objective-c++, swift
 
-## 유의사항
-1. opencv framework를 ios앱에서 사용하기 위해 만들어본 예제 프로젝트
-2. opencv2.framework는 용량이 큰 관계로 github에 포함되어 있지 않음.
-3. https://github.com/Fl0p/OpenCV-iOS 에서 framework를 받아서 사용함.
-
-
+## Cautions
+1. This is just simple example project to test opencv framework on ios
+2. opencv2.framework is not included this repository since it is too large to include
+3. you can download opencv2.framework from https://drive.google.com/drive/folders/1xTD9yP_4hbOe3p0unQlw3gIBjGOUpGeP?usp=sharing (build version)
+4. officla site to install framework by building sourcecode : https://docs.opencv.org/2.4/doc/tutorials/introduction/ios_install/ios_install.html
